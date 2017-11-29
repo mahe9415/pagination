@@ -8,8 +8,7 @@
   },
   "author": "Mahesh",
   "license": "MIT",
-  "dependencies": {
-  },
+  "dependencies": {},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/mahe9415/pagination"

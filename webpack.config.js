@@ -50,7 +50,7 @@ module.exports = [
     }
   }),
   merge(config, {
-    entry: path.resolve(__dirname + '/src/vue-pagination'),
+    entry: path.resolve(__dirname + '/src/vue-pagination.vue'),
     output: {
       filename: 'vue-pagination.js',
       libraryTarget: 'umd',
