@@ -1,19 +1,18 @@
 {
-  "name": "vue-clock-simple",
-  "version": "1.0.4",
-  "description": "A Vue.js component that displays a clock",
-  "main": "dist/vue-clock.js",
+  "name": "pagination",
+  "version": "1.0.0",
+  "description": "A Vue.js component that displays pagination",
+  "main": "dist/vue-pagination.js",
   "scripts": {
     "build": "rimraf ./dist && webpack --config ./webpack.config.js"
   },
-  "author": "Anthony Gore",
+  "author": "Mahesh",
   "license": "MIT",
   "dependencies": {
-    "moment": "^2.18.1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/anthonygore/vue-clock-simple"
+    "url": "git+https://github.com/mahe9415/pagination"
   },
   "devDependencies": {
     "babel-core": "^6.10.4",
@@ -23,7 +22,7 @@
     "babel-preset-stage-2": "^6.11.0",
     "babel-runtime": "^6.9.2",
     "rimraf": "^2.6.1",
-    "vue": "^2.2.1",
+    "vue": "^2.5.9",
     "vue-html-loader": "^1.2.3",
     "vue-loader": "^11.1.4",
     "vue-style-loader": "^2.0.3",

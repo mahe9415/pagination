@@ -25,7 +25,7 @@ var config = {
     ]
   },
   externals: {
-    moment: 'moment'
+ 
   },
   plugins: [
     new webpack.optimize.UglifyJsPlugin( {
@@ -44,17 +44,17 @@ module.exports = [
   merge(config, {
     entry: path.resolve(__dirname + '/src/plugin.js'),
     output: {
-      filename: 'vue-clock.min.js',
+      filename: 'vue-pagination.min.js',
       libraryTarget: 'window',
-      library: 'VueClock',
+      library: 'VuePagination',
     }
   }),
   merge(config, {
-    entry: path.resolve(__dirname + '/src/Clock.vue'),
+    entry: path.resolve(__dirname + '/src/vue-pagination'),
     output: {
-      filename: 'vue-clock.js',
+      filename: 'vue-pagination.js',
       libraryTarget: 'umd',
-      library: 'vue-clock',
+      library: 'vue-pagination',
       umdNamedDefine: true
     }
   })
